@@ -17,3 +17,7 @@ Because data are huge, we can't store them anywhere. the original `train.h5`, `t
 ## Models 
 
 Checkpoints of our models are stored in `model/` and can be used by following the `Test forward pass` in the `DLMI_main.ipynb` notebook.
+
+## Choice of optimizer
+
+![optimizer](imgs/valid_accuracy_per_optimizer.png)
