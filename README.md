@@ -2,7 +2,11 @@
 
 autors : **Enzo Benbalit and Robenson Mondelice**
 
-## Architecture
+## Dasets
+The dataset consists of patches of whole slide images which should be classified into either containing tumor or not. The training images come from 3 different centers (i.e. hospitals), while the validation set comes from another center and the test set from yet another center. The visual aspect of the patches are quite different due to the slightly different staining procedures, conditions, and equipment from each hospital. The objective of the task is to build a classifier that is impacted by this distribution shift as little as possible.
+
+
+## Folder
 
 Because data are huge, we can't store them anywhere. the original `train.h5`, `test.h5` and `val.h5` need to be stored in `data/{...}.h5`. The pre-computed dataset in `data_preparation.ipynb` are stored in `data/precomputed_datasets/{...}.h5`.
 
